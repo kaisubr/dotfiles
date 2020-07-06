@@ -1,0 +1,27 @@
+/* https://docs.kde.org/stable5/en/applications/konsole/tabbarstylsheet.html */
+/* https://www.reddit.com/r/kde/comments/a4jy2r/change_konsole_tab_pane_color/ */
+
+QWidget, QTabWidget::pane, QTabWidget::tab-bar { 
+    background-color: #33383d; 
+}
+
+QTabBar, QTabBar::tab
+{
+    font-family: "Fira Sans";
+    font-size: 12px;
+    min-width: 150px;
+/*     height: 16px; */
+/*     padding: 4px; */
+/*     border: 2px; */
+/*     border-bottom: 3px solid palette(dark); */
+/*     background-color: palette(dark); */
+    color: white;
+}
+
+QTabBar::tab:selected {
+    font-weight: bold;
+}
+
+QTabBar::tab:hover {
+    text-decoration: underline;
+}

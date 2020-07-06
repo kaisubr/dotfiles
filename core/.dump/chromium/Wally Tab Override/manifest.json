@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "Wally Tab Override",
+  "description": "Overrides the chrome://newtab page for allowing a clean custom background that allows effect manipulation such as blurring.",
+
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "128x128.png",
+    "default_title": "WTOv2.1",
+    "default_popup": "popup.html"
+  },
+
+  "chrome_url_overrides" : {
+    "newtab": "newtaboverride.html"
+  },
+
+  "permissions": [
+    "https://ajax.googleapis.com/",
+    "history",
+    "background",
+    "fileBrowserHandler",
+    "fileSystemProvider",
+    "unlimitedStorage",
+    "webNavigation",
+    "webRequest",
+    "contextMenus",
+    "cookies",
+    "activeTab",
+    "tabs"
+  ]
+}

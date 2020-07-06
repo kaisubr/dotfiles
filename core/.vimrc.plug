@@ -1,0 +1,24 @@
+" ~/.vimrc.plug
+"
+" This file handles plugins using the Vim-Plug package manager
+" You may have to chmod -R 0755 ~/.vim if you receive E117 or similar error.
+"
+
+call plug#begin('~/.vim/plugged')
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+
+Plug 'itchyny/lightline.vim'
+Plug 'dense-analysis/ale'
+Plug 'davidhalter/jedi-vim'
+Plug 'airblade/vim-gitgutter'
+
+" Indentline
+" Plug 'Yggdroot/indentLine'
+
+"Emojis
+"Plug 'junegunn/vim-emoji'
+
+call plug#end()
+

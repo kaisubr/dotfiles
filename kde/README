@@ -1,0 +1,4 @@
+Here are KDE config files. Installation procedures are listed in /README.md
+
+[file] ~/.config/kdeglobals
+[dir]  ~/.local/share/color-schemes/
