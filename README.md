@@ -1,5 +1,4 @@
-What is the point of this repository?
-* It's mostly for when I want to configure/fix an existing system or set up a new system. It holds configuration and installation instructions for vim, kde, and so on, because I am often forgetful and pretty dependent on custom shortcuts/random handmade scripts. If you wish, feel free to poke around these files =)
+<code>dotfiles</code>
 
 <!--
 
