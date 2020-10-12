@@ -100,13 +100,13 @@ vnoremap <silent><C-s>  <C-C>:update<CR>
 inoremap <silent><C-s>  <C-O>:update<CR>
 
 " use CTRL w or CTRL w q to write, then exit tab. Requires interaction if currently insert mode. Only works in gui mode.
-if has("gui_running")
-    nnoremap <C-w>          :wq<CR>
-    nnoremap <C-w><C-q>     :wq<CR>
-else
-    nnoremap <C-w>          :w<CR>
-    nnoremap <C-w><C-q>     :wall<CR>
-endif
+" if has("gui_running")
+"     nnoremap <C-w>          :wq<CR>
+"     nnoremap <C-w><C-q>     :wq<CR>
+" else
+"     nnoremap <C-w>          :w<CR>
+"     nnoremap <C-w><C-q>     :wall<CR>
+" endif
 " inoremap <C-w>          :wq "don't do this, because insert mode's <C-w> maps to delete word.
 
 " use CTRL q, e to force exit without saving. This requires user interaction (press enter (<CR>) in the Vim command prompt)

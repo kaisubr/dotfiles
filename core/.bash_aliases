@@ -129,3 +129,13 @@ _alarm() {
   \sleep ${2}
   \kill -9 $pid
 }
+
+# https://www.stefaanlippens.net/pretty-csv.html
+function _pretty_csv {
+    perl -pe 's/((?<=,)|(?<=^)),/ ,/g;' "$@" | column -t -s, | less  -F -S -X -K
+}
+
+function _pretty_tsv {
+    perl -pe 's/((?<=\t)|(?<=^))\t/ \t/g;' "$@" | column -t -s $'\t' | less  -F -S -X -K
+}
+
