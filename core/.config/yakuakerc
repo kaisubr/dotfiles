@@ -1,0 +1,29 @@
+[Animation]
+Frames=10
+
+[Appearance]
+BackgroundColorOpacity=80
+Blur=true
+Skin=legacy
+Translucency=true
+
+[Desktop Entry]
+DefaultProfile=Profile.profile
+
+[Dialogs]
+FirstRun=false
+
+[DownloadDialog Settings]
+Height 1080=481
+Width 1920=700
+
+[Favorite Profiles]
+Favorites=
+
+[KFileDialog Settings]
+detailViewIconSize=0
+
+[Window]
+DynamicTabTitles=true
+KeepOpen=false
+ToggleToFocus=true

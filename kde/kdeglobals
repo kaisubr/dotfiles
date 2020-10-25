@@ -1,41 +1,41 @@
 [$Version]
-update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed
 
 [ColorEffects:Disabled]
 ChangeSelectionColor=
-Color=56,56,56
+Color=112,111,110
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
 Enable=
 IntensityAmount=0.1
-IntensityEffect=2
+IntensityEffect=0
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
-Color=112,111,110
+Color=130,130,130
 ColorAmount=0.025
 ColorEffect=2
 ContrastAmount=0.1
 ContrastEffect=2
-Enable=false
+Enable=true
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=189,195,199
-BackgroundNormal=255,255,255
-DecorationFocus=239,112,48
-DecorationHover=255,155,83
-ForegroundActive=61,174,233
-ForegroundInactive=120,120,120
-ForegroundLink=41,128,185
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=36,36,36
-ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+BackgroundAlternate=235,235,235
+BackgroundNormal=235,235,235
+DecorationFocus=46,133,176
+DecorationHover=99,175,210
+ForegroundActive=255,128,224
+ForegroundInactive=136,135,134
+ForegroundLink=0,87,174
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=5,5,5
+ForegroundPositive=0,110,40
+ForegroundVisited=69,40,134
 
 [Colors:Complementary]
 BackgroundAlternate=66,66,66
@@ -52,92 +52,89 @@ ForegroundPositive=46,204,113
 ForegroundVisited=120,120,120
 
 [Colors:Selection]
-BackgroundAlternate=74,124,239
-BackgroundNormal=239,128,48
-DecorationFocus=255,255,255
-DecorationHover=255,155,83
-ForegroundActive=252,252,252
-ForegroundInactive=239,179,135
-ForegroundLink=253,188,75
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
+BackgroundAlternate=105,105,105
+BackgroundNormal=105,105,105
+DecorationFocus=46,133,176
+DecorationHover=99,175,210
+ForegroundActive=255,128,224
+ForegroundInactive=142,203,233
+ForegroundLink=0,87,174
+ForegroundNegative=156,14,14
+ForegroundNeutral=255,221,0
 ForegroundNormal=255,255,255
-ForegroundPositive=39,174,96
-ForegroundVisited=127,160,239
+ForegroundPositive=128,255,128
+ForegroundVisited=69,40,134
 
 [Colors:Tooltip]
-BackgroundAlternate=77,77,77
-BackgroundNormal=36,36,36
-DecorationFocus=49,91,239
-DecorationHover=255,155,83
-ForegroundActive=61,174,233
-ForegroundInactive=120,120,120
-ForegroundLink=41,128,185
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=222,222,222
-ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+BackgroundAlternate=0,0,0
+BackgroundNormal=0,0,0
+DecorationFocus=46,133,176
+DecorationHover=99,175,210
+ForegroundActive=255,128,224
+ForegroundInactive=96,112,128
+ForegroundLink=0,87,174
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=255,255,255
+ForegroundPositive=0,110,40
+ForegroundVisited=69,40,134
 
 [Colors:View]
-BackgroundAlternate=239,239,239
+BackgroundAlternate=245,245,245
 BackgroundNormal=255,255,255
-DecorationFocus=239,111,47
-DecorationHover=255,155,83
-ForegroundActive=239,112,48
-ForegroundInactive=120,120,120
-ForegroundLink=239,128,48
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=36,36,36
-ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+DecorationFocus=46,133,176
+DecorationHover=99,175,210
+ForegroundActive=255,128,224
+ForegroundInactive=136,135,134
+ForegroundLink=0,87,174
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=5,5,5
+ForegroundPositive=0,110,40
+ForegroundVisited=69,40,134
 
 [Colors:Window]
-BackgroundAlternate=238,238,238
+BackgroundAlternate=235,235,235
 BackgroundNormal=245,245,245
-DecorationFocus=49,91,239
-DecorationHover=255,155,83
-ForegroundActive=61,174,233
-ForegroundInactive=120,120,120
-ForegroundLink=41,128,185
-ForegroundNegative=218,68,83
-ForegroundNeutral=246,116,0
-ForegroundNormal=36,36,36
-ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+DecorationFocus=46,133,176
+DecorationHover=99,175,210
+ForegroundActive=255,128,224
+ForegroundInactive=136,135,134
+ForegroundLink=0,87,174
+ForegroundNegative=191,3,3
+ForegroundNeutral=176,128,0
+ForegroundNormal=5,5,5
+ForegroundPositive=0,110,40
+ForegroundVisited=69,40,134
 
 [DirSelect Dialog]
-DirSelectDialog Size=643,480
+DirSelectDialog Size=843,596
+History Items[$e]=file:///usr/share/wallpapers/0_My_Wallpapers
 
 [General]
-BrowserApplication[$e]=chromium_chromium.desktop
-ColorScheme=MOSLight_Kailash
+BrowserApplication=brave-browser.desktop
+ColorScheme=KvMojaveMixed_Kailash
 Name=Breeze
 UseSystemBell=true
-XftHintStyle=
-XftSubPixel=
+XftHintStyle=hintslight
+XftSubPixel=rgb
 dbfile=/home/kailash/.mozilla/firefox/m0wi9y7h.default/places.sqlite
 fixed=IBM Plex Mono,10,-1,5,50,0,0,0,0,0,Regular
-font=Fira Sans,9.5,-1,5,50,0,0,0,0,0,Regular
-menuFont=Fira Sans,9.5,-1,5,50,0,0,0,0,0,Regular
+font=Fira Sans,10,-1,5,50,0,0,0,0,0
+menuFont=Fira Sans,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=Fira Sans,9.5,-1,5,50,0,0,0,0,0,Regular
-toolBarFont=Fira Sans,9.5,-1,5,50,0,0,0,0,0,Regular
+smallestReadableFont=Fira Sans,10,-1,5,50,0,0,0,0,0
+toolBarFont=Fira Sans,10,-1,5,50,0,0,0,0,0
 widgetStyle=Breeze
-
-[Icons]
-Theme=Papirus-Dark
 
 [KDE]
 ColorScheme=Breeze
-LookAndFeelPackage=org.kde.breeze.desktop
+LookAndFeelPackage=org.kubuntu.desktop
 ShowDeleteCommand=false
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 SingleClick=false
 contrast=4
-widgetStyle=breeze
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -151,11 +148,11 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=149
+Speedbar Width=159
 View Style=DetailTree
 
 [KScreen]
@@ -163,7 +160,7 @@ ScaleFactor=1
 ScreenScaleFactors=eDP-1=1;HDMI-1=1;
 
 [KShortcutsDialog Settings]
-Dialog Size=600,480
+Dialog Size=842,584
 
 [PreviewSettings]
 MaximumRemoteSize=0
@@ -173,10 +170,12 @@ ToolButtonStyle=TextBesideIcon
 ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
-activeBackground=245,245,245
-activeBlend=86,86,86
-activeFont=Fira Sans,9.5,-1,5,50,0,0,0,0,0,Regular
-activeForeground=66,66,66
-inactiveBackground=238,238,238
-inactiveBlend=102,102,102
-inactiveForeground=120,120,120
+activeBackground=61,62,67
+activeBlend=59,60,65
+activeFont=Fira Sans,10,-1,5,50,0,0,0,0,0
+activeForeground=255,255,255
+frame=245,245,245
+inactiveBackground=61,62,67
+inactiveBlend=59,60,65
+inactiveForeground=238,238,238
+inactiveFrame=245,245,245
